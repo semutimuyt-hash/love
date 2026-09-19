@@ -735,7 +735,7 @@ body {
     text-align: center;
     color: white;
     font-family: 'Courier New', monospace;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.6;
     text-shadow: 0 0 8px pink, 0 0 18px hotpink;
     z-index: 10;
@@ -743,4 +743,29 @@ body {
 
 .kata-kata p {
     margin: 12px 0;
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    #ui {
+        transform: scale(0.55);
+        transform-origin: center center;
+    }
+
+    .kata-kata {
+        top: 3%;
+        left: 50%;
+        width: 90%;
+        font-size: 13px;
+        line-height: 1.5;
+        transform: translateX(-50%);
+    }
+
+    .kata-kata p {
+        margin: 8px 0;
+    }
 }
