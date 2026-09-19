@@ -752,14 +752,13 @@ body {
     }
 
     #ui {
-        transform: scale(0.55);
-        transform-origin: center center;
+        zoom: 0.55;
     }
 
     .kata-kata {
-        top: 3%;
+        top: 5%;
         left: 50%;
-        width: 90%;
+        width: 85%;
         font-size: 13px;
         line-height: 1.5;
         transform: translateX(-50%);
