@@ -1,3 +1,4 @@
+
 #btn-make {
   bottom: 200px;
   right: 30px;
@@ -727,21 +728,16 @@ body {
 }
 .kata-kata {
     position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-
-    width: 400px;
-
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
     text-align: center;
     color: white;
-
-    font-family: 'Consolas', 'Courier New', monospace;
-    font-size: 14px;
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
     line-height: 1.6;
-
     text-shadow: 0 0 8px pink, 0 0 18px hotpink;
-
     z-index: 10;
 }
 
